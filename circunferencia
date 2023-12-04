@@ -1,0 +1,14 @@
+public class raio {
+    public static void main(String[] args) {
+
+        double raio = 2.0;
+        double pi = 3.16;
+
+        double area = pi * (raio * raio);
+
+        double comprimento = 2 * pi * raio;
+
+        System.out.println("Área da circunferência: " + area);
+        System.out.println("Comprimento da circunferência: " + comprimento);
+    }
+}
